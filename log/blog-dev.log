@@ -1,0 +1,456 @@
+2020-05-20 14:06:48.429  INFO 5728 --- [main] com.wkj.MyblogApplication                : Starting MyblogApplication on PC-202003071621 with PID 5728 (C:\Users\Administrator\Desktop\myblog-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-master)
+2020-05-20 14:06:48.435  INFO 5728 --- [main] com.wkj.MyblogApplication                : The following profiles are active: dev
+2020-05-20 14:06:48.882  INFO 5728 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c9bfddc: startup date [Wed May 20 14:06:48 CST 2020]; root of context hierarchy
+2020-05-20 14:06:50.913  WARN 5728 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wkj]' package. Please check your configuration.
+2020-05-20 14:06:51.034  INFO 5728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 14:06:51.279  INFO 5728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 14:06:51.352  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.BlogRepository.
+2020-05-20 14:06:51.357  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.UserRepository.
+2020-05-20 14:06:51.357  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TypeRepository.
+2020-05-20 14:06:51.358  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.QqRepository.
+2020-05-20 14:06:51.359  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.CommentRepository.
+2020-05-20 14:06:51.360  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.MessageRepository.
+2020-05-20 14:06:51.360  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.GithubRepository.
+2020-05-20 14:06:51.361  INFO 5728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TagRepository.
+2020-05-20 14:06:51.783  INFO 5728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9361825b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 14:06:52.596  INFO 5728 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-20 14:06:52.614  INFO 5728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 14:06:52.616  INFO 5728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-20 14:06:52.731  INFO 5728 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 14:06:52.732  INFO 5728 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3850 ms
+2020-05-20 14:06:52.951  INFO 5728 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 14:06:52.956  INFO 5728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 14:06:52.957  INFO 5728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 14:06:52.957  INFO 5728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 14:06:52.957  INFO 5728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 14:06:54.325  INFO 5728 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-20 14:06:54.361  INFO 5728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-20 14:06:54.425  INFO 5728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-20 14:06:54.426  INFO 5728 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-20 14:06:54.428  INFO 5728 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-20 14:06:54.484  INFO 5728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-20 14:06:55.179  INFO 5728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-20 14:06:55.637  INFO 5728 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-20 14:06:56.006  INFO 5728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-20 14:06:56.648  INFO 5728 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-20 14:06:58.225  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c9bfddc: startup date [Wed May 20 14:06:48 CST 2020]; root of context hierarchy
+2020-05-20 14:06:58.400  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 14:06:58.402  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 14:06:58.404  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.wkj.web.AboutShowController.about()
+2020-05-20 14:06:58.407  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.408  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 14:06:58.408  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-20 14:06:58.409  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.post(com.wkj.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.409  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.409  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-20 14:06:58.410  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 14:06:58.411  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.loginPage()
+2020-05-20 14:06:58.412  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.413  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.415  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.416  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-20 14:06:58.416  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 14:06:58.416  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.post(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.417  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.417  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.editPost(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.419  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.419  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 14:06:58.420  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-20 14:06:58.421  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.post(com.wkj.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.422  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.422  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.editPost(com.wkj.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:06:58.424  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.wkj.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-20 14:06:58.425  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.wkj.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.426  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.wkj.web.CommentController.post(com.wkj.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.429  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.wkj.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 14:06:58.432  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,com.wkj.pojo.Github)
+2020-05-20 14:06:58.433  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-20 14:06:58.433  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.435  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.438  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 14:06:58.438  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.wkj.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-20 14:06:58.439  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 14:06:58.440  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.zeroError()
+2020-05-20 14:06:58.440  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-20 14:06:58.441  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.442  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 14:06:58.443  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.wkj.web.MessageController.post(com.wkj.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.443  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.messageBoard()
+2020-05-20 14:06:58.443  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 14:06:58.445  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-20 14:06:58.446  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.wkj.web.QQController.post(javax.servlet.http.HttpSession,com.wkj.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-20 14:06:58.446  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.447  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 14:06:58.447  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-20 14:06:58.448  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.wkj.web.SmsController.sendSms(java.lang.String)
+2020-05-20 14:06:58.449  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.450  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:06:58.451  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 14:06:58.452  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 14:06:58.454  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 14:06:58.454  INFO 5728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 14:06:58.538  INFO 5728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:06:58.539  INFO 5728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:06:58.570  INFO 5728 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-20 14:06:58.607  INFO 5728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:06:59.485  INFO 5728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 14:06:59.494  INFO 5728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-20 14:06:59.497  INFO 5728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-20 14:06:59.535  INFO 5728 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-20 14:06:59.592  INFO 5728 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-20 14:06:59.596  INFO 5728 --- [main] com.wkj.MyblogApplication                : Started MyblogApplication in 12.468 seconds (JVM running for 15.464)
+2020-05-20 14:07:10.862  INFO 5728 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1589885787; monitor_count=57] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-20 14:07:10.876  INFO 5728 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 14:07:10.876  INFO 5728 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 14:07:10.922  INFO 5728 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2020-05-20 14:07:17.283  WARN 5728 --- [http-nio-80-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,214] milliseconds.
+2020-05-20 14:07:17.283  WARN 5728 --- [http-nio-80-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,214] milliseconds.
+2020-05-20 14:07:25.738  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:07:25.764  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:07:25.765  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:21.074  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:21.078  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:21.078  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:24.367  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:24.381  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:24.382  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:27.266  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:27.272  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:27.272  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:37.787  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:37.790  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:37.791  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:41.677  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:41.681  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:41.681  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:18:52.198  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:18:52.201  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:18:52.203  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:21:25.295  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:25.360  WARN 5728 --- [http-nio-80-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-20 14:21:25.367  WARN 5728 --- [http-nio-80-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-20 14:21:25.381  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:25.382  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:21:26.531  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:26.560  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:26.561  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:21:35.876  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:35.904  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:35.905  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-20 14:21:36.974  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:36.986  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:36.987  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:21:41.252  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:41.290  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:41.291  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-20 14:21:42.094  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:42.102  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:42.102  INFO 5728 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:21:49.713  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:49.754  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:49.754  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : archives
+2020-05-20 14:21:50.708  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:21:50.718  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:21:50.719  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:22:07.612  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:22:07.892  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:22:07.893  INFO 5728 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-20 14:22:08.883  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:22:08.890  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:22:08.890  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:22:34.973  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:22:35.001  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:22:35.001  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:22:36.316  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:22:36.339  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:22:36.340  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:23:06.804  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:23:06.822  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:23:06.823  INFO 5728 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:23:07.895  INFO 5728 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:23:07.904  INFO 5728 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:23:07.904  INFO 5728 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:25:37.386  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:25:37.419  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:25:37.419  INFO 5728 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:25:38.582  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:25:38.596  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:25:38.597  INFO 5728 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:26:51.026  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:26:51.190  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:26:51.190  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-20 14:26:52.288  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:26:52.298  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:26:52.298  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:26:59.862  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:26:59.897  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:26:59.897  INFO 5728 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:27:01.082  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:27:01.091  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:27:01.094  INFO 5728 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:27:52.511  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:27:52.529  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:27:52.530  INFO 5728 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:27:53.392  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:27:53.398  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:27:53.398  INFO 5728 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:28:13.780  INFO 3052 --- [main] com.wkj.MyblogApplication                : Starting MyblogApplication on PC-202003071621 with PID 3052 (C:\Users\Administrator\Desktop\myblog-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-master)
+2020-05-20 14:28:13.784  INFO 3052 --- [main] com.wkj.MyblogApplication                : The following profiles are active: dev
+2020-05-20 14:28:14.519  INFO 3052 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e01a982: startup date [Wed May 20 14:28:14 CST 2020]; root of context hierarchy
+2020-05-20 14:28:17.587  WARN 3052 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wkj]' package. Please check your configuration.
+2020-05-20 14:28:17.763  INFO 3052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 14:28:18.443  INFO 3052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 14:28:18.639  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.BlogRepository.
+2020-05-20 14:28:18.649  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.UserRepository.
+2020-05-20 14:28:18.654  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TypeRepository.
+2020-05-20 14:28:18.656  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.QqRepository.
+2020-05-20 14:28:18.660  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.CommentRepository.
+2020-05-20 14:28:18.663  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.MessageRepository.
+2020-05-20 14:28:18.667  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.GithubRepository.
+2020-05-20 14:28:18.671  INFO 3052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TagRepository.
+2020-05-20 14:28:19.869  INFO 3052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7d08eef5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 14:28:22.304  INFO 3052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-20 14:28:22.340  INFO 3052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 14:28:22.344  INFO 3052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-20 14:28:22.750  INFO 3052 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 14:28:22.755  INFO 3052 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8236 ms
+2020-05-20 14:28:23.436  INFO 3052 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 14:28:23.453  INFO 3052 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 14:28:23.454  INFO 3052 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 14:28:23.455  INFO 3052 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 14:28:23.456  INFO 3052 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 14:28:26.273  INFO 3052 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-20 14:28:26.327  INFO 3052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-20 14:28:26.611  INFO 3052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-20 14:28:26.628  INFO 3052 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-20 14:28:26.630  INFO 3052 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-20 14:28:26.788  INFO 3052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-20 14:28:28.183  INFO 3052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-20 14:28:29.902  INFO 3052 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-20 14:28:30.833  INFO 3052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-20 14:28:32.879  INFO 3052 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-20 14:28:39.707  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e01a982: startup date [Wed May 20 14:28:14 CST 2020]; root of context hierarchy
+2020-05-20 14:28:40.147  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 14:28:40.160  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 14:28:40.170  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.wkj.web.AboutShowController.about()
+2020-05-20 14:28:40.177  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.179  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 14:28:40.181  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-20 14:28:40.182  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.post(com.wkj.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.183  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 14:28:40.187  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.189  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-20 14:28:40.206  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.loginPage()
+2020-05-20 14:28:40.207  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.221  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.240  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.242  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-20 14:28:40.244  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 14:28:40.246  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.post(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.248  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.249  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.editPost(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.254  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.256  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 14:28:40.266  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-20 14:28:40.270  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.post(com.wkj.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.272  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.275  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.editPost(com.wkj.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 14:28:40.282  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.wkj.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-20 14:28:40.293  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.wkj.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.295  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.wkj.web.CommentController.post(com.wkj.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.299  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.wkj.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 14:28:40.299  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,com.wkj.pojo.Github)
+2020-05-20 14:28:40.302  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-20 14:28:40.304  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.307  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.309  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 14:28:40.310  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.wkj.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-20 14:28:40.310  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 14:28:40.310  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.313  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-20 14:28:40.314  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.zeroError()
+2020-05-20 14:28:40.323  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 14:28:40.325  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.wkj.web.MessageController.post(com.wkj.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.330  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 14:28:40.335  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.messageBoard()
+2020-05-20 14:28:40.343  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-20 14:28:40.344  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.wkj.web.QQController.post(javax.servlet.http.HttpSession,com.wkj.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-20 14:28:40.345  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.347  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-20 14:28:40.349  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 14:28:40.358  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.wkj.web.SmsController.sendSms(java.lang.String)
+2020-05-20 14:28:40.361  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.363  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 14:28:40.366  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 14:28:40.370  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 14:28:40.392  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 14:28:40.393  INFO 3052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 14:28:40.738  INFO 3052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:28:40.740  INFO 3052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:28:40.897  INFO 3052 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-20 14:28:41.071  INFO 3052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 14:28:44.462  INFO 3052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 14:28:44.475  INFO 3052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-20 14:28:44.481  INFO 3052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-20 14:28:44.541  INFO 3052 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-20 14:28:44.729  INFO 3052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-20 14:28:44.748  INFO 3052 --- [main] com.wkj.MyblogApplication                : Started MyblogApplication in 32.94 seconds (JVM running for 37.219)
+2020-05-20 14:28:56.128  INFO 3052 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1589885787,1589954833; JSESSIONID=132E6C13D211CCC4BF8033B8F77DA2EF; monitor_count=88; Hm_lpvt_6b1eb02bacb648d682681dc81149e144=1589956073] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-20 14:28:56.176  INFO 3052 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 14:28:56.177  INFO 3052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 14:28:56.325  INFO 3052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 147 ms
+2020-05-20 14:28:56.515  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:28:56.804  WARN 3052 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-20 14:28:56.832  WARN 3052 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-20 14:28:56.842  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:28:56.842  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-20 14:28:59.423  INFO 3052 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:28:59.430  INFO 3052 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:28:59.431  INFO 3052 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:29:29.487  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:29:29.705  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:29:29.705  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-20 14:29:30.823  INFO 3052 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:29:30.834  INFO 3052 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:29:30.836  INFO 3052 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:30:13.285  INFO 3052 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:30:13.342  INFO 3052 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:30:13.342  INFO 3052 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-20 14:30:14.335  INFO 3052 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:30:14.348  INFO 3052 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:30:14.349  INFO 3052 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:38:23.363  WARN 3052 --- [http-nio-80-exec-7] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,707] milliseconds.
+2020-05-20 14:38:29.894  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:38:29.904  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:38:29.905  INFO 3052 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:39:26.755  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:39:26.763  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:39:26.763  INFO 3052 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:39:34.464  INFO 3052 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:39:34.474  INFO 3052 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:39:34.474  INFO 3052 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 14:39:38.165  INFO 3052 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 14:39:38.175  INFO 3052 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 14:39:38.175  INFO 3052 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 15:23:20.096  INFO 7688 --- [main] com.wkj.MyblogApplication                : Starting MyblogApplication on PC-202003071621 with PID 7688 (C:\Users\Administrator\Desktop\myblog-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-master)
+2020-05-20 15:23:20.100  INFO 7688 --- [main] com.wkj.MyblogApplication                : The following profiles are active: dev
+2020-05-20 15:23:20.565  INFO 7688 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c9bfddc: startup date [Wed May 20 15:23:20 CST 2020]; root of context hierarchy
+2020-05-20 15:23:21.618  WARN 7688 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wkj]' package. Please check your configuration.
+2020-05-20 15:23:21.672  INFO 7688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 15:23:21.929  INFO 7688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-20 15:23:22.017  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.BlogRepository.
+2020-05-20 15:23:22.019  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.UserRepository.
+2020-05-20 15:23:22.020  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TypeRepository.
+2020-05-20 15:23:22.021  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.QqRepository.
+2020-05-20 15:23:22.022  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.CommentRepository.
+2020-05-20 15:23:22.022  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.MessageRepository.
+2020-05-20 15:23:22.023  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.GithubRepository.
+2020-05-20 15:23:22.023  INFO 7688 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TagRepository.
+2020-05-20 15:23:22.374  INFO 7688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6b8dcfc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 15:23:23.098  INFO 7688 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-20 15:23:23.109  INFO 7688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 15:23:23.111  INFO 7688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-20 15:23:23.206  INFO 7688 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 15:23:23.207  INFO 7688 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2642 ms
+2020-05-20 15:23:23.420  INFO 7688 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 15:23:23.429  INFO 7688 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 15:23:23.430  INFO 7688 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 15:23:23.430  INFO 7688 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 15:23:23.431  INFO 7688 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 15:23:24.742  INFO 7688 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-20 15:23:24.764  INFO 7688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-20 15:23:24.935  INFO 7688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-20 15:23:24.940  INFO 7688 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-20 15:23:24.942  INFO 7688 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-20 15:23:25.045  INFO 7688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-20 15:23:25.662  INFO 7688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-20 15:23:26.290  INFO 7688 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-20 15:23:26.766  INFO 7688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-20 15:23:27.413  INFO 7688 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-20 15:23:28.942  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c9bfddc: startup date [Wed May 20 15:23:20 CST 2020]; root of context hierarchy
+2020-05-20 15:23:29.046  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 15:23:29.048  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-20 15:23:29.051  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.wkj.web.AboutShowController.about()
+2020-05-20 15:23:29.056  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.057  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 15:23:29.057  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-20 15:23:29.057  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.post(com.wkj.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.058  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.058  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-20 15:23:29.059  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-20 15:23:29.060  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.loginPage()
+2020-05-20 15:23:29.060  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.061  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.065  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.065  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-20 15:23:29.066  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 15:23:29.066  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.post(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.067  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.067  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.editPost(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.070  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.071  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-20 15:23:29.071  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-20 15:23:29.071  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.post(com.wkj.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.072  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.072  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.editPost(com.wkj.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-20 15:23:29.075  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.wkj.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-20 15:23:29.076  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.wkj.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.076  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.wkj.web.CommentController.post(com.wkj.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.078  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.wkj.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 15:23:29.079  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,com.wkj.pojo.Github)
+2020-05-20 15:23:29.079  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-20 15:23:29.079  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.079  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.081  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 15:23:29.082  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.wkj.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-20 15:23:29.082  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-20 15:23:29.082  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.082  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.zeroError()
+2020-05-20 15:23:29.083  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-20 15:23:29.084  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 15:23:29.084  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.wkj.web.MessageController.post(com.wkj.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.084  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.messageBoard()
+2020-05-20 15:23:29.085  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-20 15:23:29.086  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-20 15:23:29.086  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.086  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.wkj.web.QQController.post(javax.servlet.http.HttpSession,com.wkj.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-20 15:23:29.086  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-20 15:23:29.087  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-20 15:23:29.087  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.wkj.web.SmsController.sendSms(java.lang.String)
+2020-05-20 15:23:29.087  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.088  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-20 15:23:29.089  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 15:23:29.090  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-20 15:23:29.092  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 15:23:29.092  INFO 7688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 15:23:29.174  INFO 7688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:23:29.175  INFO 7688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:23:29.206  INFO 7688 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-20 15:23:29.240  INFO 7688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:23:30.027  INFO 7688 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 15:23:30.037  INFO 7688 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-20 15:23:30.040  INFO 7688 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-20 15:23:30.058  INFO 7688 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-20 15:23:30.109  INFO 7688 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-20 15:23:30.115  INFO 7688 --- [main] com.wkj.MyblogApplication                : Started MyblogApplication in 11.093 seconds (JVM running for 13.525)
+2020-05-20 15:24:07.975  INFO 7688 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1589885787,1589954833; monitor_count=97] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-20 15:24:08.014  INFO 7688 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 15:24:08.015  INFO 7688 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 15:24:08.092  INFO 7688 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 77 ms
+2020-05-20 15:24:15.652  WARN 7688 --- [http-nio-80-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,953] milliseconds.
+2020-05-20 15:24:15.653  WARN 7688 --- [http-nio-80-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,954] milliseconds.
+2020-05-20 15:24:16.944  INFO 7688 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 15:24:16.990  INFO 7688 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 15:24:16.990  INFO 7688 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 15:24:25.159  INFO 7688 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 15:24:25.166  INFO 7688 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 15:24:25.167  INFO 7688 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-20 15:24:29.976  INFO 7688 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-20 15:24:29.985  INFO 7688 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-20 15:24:29.985  INFO 7688 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
