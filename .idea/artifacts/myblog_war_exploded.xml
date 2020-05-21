@@ -16,8 +16,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.2.10" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.7.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.11" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.11" />
@@ -113,6 +111,8 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.1" />
