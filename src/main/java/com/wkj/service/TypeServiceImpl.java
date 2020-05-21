@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @author : xsh
+ * @author : wkj
  * @create : 2020-02-08 - 1:36
  * @describe:
  */
@@ -65,8 +65,8 @@ public class TypeServiceImpl implements TypeService{
         if(t==null){
             throw new NotFoundException("不存在该类型");
         }
-        BeanUtils.copyProperties(type,t); //将type里面的值赋值给t
-        return typeRepository.save(t);
+        BeanUtils.copyProperties(type,t); //将修改后的type里面的值赋值给t
+        return typeRepository.save(t);//将t保存回去
     }
 
     @Transactional
