@@ -26,8 +26,8 @@
 
 
 <!--导航-->
-<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
-  <div class="ui container">
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-opacity-tiny m-padded-tb-mini m-shadow-small" >
+  <div class="ui container" >
     <div class="ui inverted secondary stackable menu">
       <h2 class="ui teal header item" title="个人博客">WKJ_Blog</h2>
       <a href="#" target="_blank" th:href="@{/}" class="m-item item m-mobile-hide " th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>&nbsp;首页</a>
@@ -87,7 +87,7 @@
 
 
 <!--底部footer-->
-<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+<footer th:fragment="footer" class="ui inverted vertical segment m-opacity-tiny m-padded-tb-massive">
   <!--引入网易云音乐播放器插件，固定右下角显示,歌单4864025307-->
   <div id="netEasy-music" style="display:none;position: fixed;bottom: -45px;right: 280px;width: 0%;z-index:9999" >
     <iframe frameborder="no" border="0" marginwidth="0"

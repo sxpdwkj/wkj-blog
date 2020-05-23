@@ -21,26 +21,38 @@
 <body>
 
 <!--导航-->
-<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-opacity-tiny m-padded-tb-mini m-shadow-small" >
   <div class="ui container">
     <div class="ui inverted secondary stackable menu">
       <h2 class="ui teal header item">管理后台</h2>
       <a href="#" th:href="@{/admin/blogs}" class=" m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>博客</a>
       <a href="#" th:href="@{/admin/types}" class=" m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="mini idea icon"></i>分类</a>
       <a href="#" th:href="@{/admin/tags}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="mini tags icon"></i>标签</a>
-      <div class="right m-item m-mobile-hide menu">
-        <div class="ui dropdown  item">
+<!--      <div class="right m-item m-mobile-hide menu">-->
+<!--        <div class="ui dropdown item">-->
+<!--          <div class="text">-->
+<!--&lt;!&ndash;            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">&ndash;&gt;-->
+<!--            <img class="ui center avatar image" src="../static/images/welcome.jpg" th:src="@{/images/welcome.jpg}">-->
+<!--            <span th:text="${session.user.nickname}">wkj</span>-->
+<!--          </div>-->
+<!--          <i class="dropdown icon"></i>-->
+<!--          <div class="menu">-->
+<!--            <a href="#" th:href="@{/admin/logout}" class="item">注销</a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+      <div class="right m-item  m-mobile-hide menu">
+        <div class="ui item">
           <div class="text">
-            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">
+            <!--            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">-->
+            <img class="ui center avatar image" src="../static/images/welcome.jpg" th:src="@{/images/welcome.jpg}">
             <span th:text="${session.user.nickname}">wkj</span>
           </div>
-          <i class="dropdown icon"></i>
-          <div class="menu">
+          <div class="right item ">
             <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
           </div>
         </div>
       </div>
-    </div>
   </div>
   <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
     <i class="sidebar icon"></i>
@@ -52,7 +64,7 @@
 
 
 <!--底部footer-->
-<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+<footer th:fragment="footer" class="ui inverted vertical segment m-opacity-tiny m-padded-tb-massive">
   <div class="ui center aligned container">
     <div class="ui inverted divided stackable grid">
       <div class="three wide column">
@@ -88,7 +100,7 @@
       </div>
     </div>
     <div class="ui inverted section divider"></div>
-    <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2020 - <span th:text="${#dates.year(#dates.createNow())}">2020</span> &nbsp;XSH &nbsp; Designed by wkj</p>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2020 - <span th:text="${#dates.year(#dates.createNow())}">2020</span> &nbsp;WKJ &nbsp; Designed by wkj</p>
     <p class="m-text-thin m-text-spaced m-opacity-tiny"><a href="http://icp.chinaz.com/info?q=xiongsihao.com">赣ICP备20000310号</a></p>
 
     <div style="width:300px;margin:0 auto; padding:1px 0;">
