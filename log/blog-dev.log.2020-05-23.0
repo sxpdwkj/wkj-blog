@@ -1,0 +1,1160 @@
+2020-05-23 15:29:46.807  INFO 3288 --- [restartedMain] com.wkj.MyblogApplication                : Starting MyblogApplication on PC-202003071621 with PID 3288 (C:\Users\Administrator\Desktop\myblog-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-master)
+2020-05-23 15:29:46.813  INFO 3288 --- [restartedMain] com.wkj.MyblogApplication                : The following profiles are active: dev
+2020-05-23 15:29:47.416  INFO 3288 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37cf3d5a: startup date [Sat May 23 15:29:47 CST 2020]; root of context hierarchy
+2020-05-23 15:29:50.916  WARN 3288 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wkj]' package. Please check your configuration.
+2020-05-23 15:29:51.047  INFO 3288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-23 15:29:51.291  INFO 3288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-23 15:29:51.404  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.BlogRepository.
+2020-05-23 15:29:51.492  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.UserRepository.
+2020-05-23 15:29:51.498  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TypeRepository.
+2020-05-23 15:29:51.501  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.QqRepository.
+2020-05-23 15:29:51.504  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.CommentRepository.
+2020-05-23 15:29:51.506  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.MessageRepository.
+2020-05-23 15:29:51.508  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.GithubRepository.
+2020-05-23 15:29:51.528  INFO 3288 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wkj.dao.TagRepository.
+2020-05-23 15:29:52.036  INFO 3288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$fc0668f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-23 15:29:53.536  INFO 3288 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-23 15:29:53.552  INFO 3288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-23 15:29:53.554  INFO 3288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-23 15:29:53.800  INFO 3288 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-23 15:29:53.800  INFO 3288 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6384 ms
+2020-05-23 15:29:54.018  INFO 3288 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-23 15:29:54.023  INFO 3288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-23 15:29:54.024  INFO 3288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-23 15:29:54.024  INFO 3288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-23 15:29:54.024  INFO 3288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-23 15:29:56.526  INFO 3288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-23 15:29:56.539  INFO 3288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-23 15:29:56.664  INFO 3288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-23 15:29:56.667  INFO 3288 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-23 15:29:56.668  INFO 3288 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-23 15:29:56.781  INFO 3288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-23 15:29:57.518  INFO 3288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-23 15:29:58.169  INFO 3288 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-23 15:29:58.745  INFO 3288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-23 15:30:00.094  INFO 3288 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-23 15:30:02.989  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37cf3d5a: startup date [Sat May 23 15:29:47 CST 2020]; root of context hierarchy
+2020-05-23 15:30:03.245  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-23 15:30:03.247  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.wkj.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-23 15:30:03.249  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.wkj.web.AboutShowController.about()
+2020-05-23 15:30:03.255  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.256  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-23 15:30:03.257  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-23 15:30:03.258  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.wkj.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-23 15:30:03.259  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.265  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-23 15:30:03.267  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.BlogController.post(com.wkj.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.273  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.273  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.loginPage()
+2020-05-23 15:30:03.274  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.281  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.281  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-23 15:30:03.283  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.284  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.editPost(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.285  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-23 15:30:03.287  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TagController.post(com.wkj.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.298  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.299  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-23 15:30:03.300  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-23 15:30:03.301  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.wkj.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.301  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.editPost(com.wkj.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.302  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.wkj.web.admin.TypeController.post(com.wkj.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-23 15:30:03.306  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.wkj.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-23 15:30:03.308  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.wkj.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.309  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.wkj.web.CommentController.post(com.wkj.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.311  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.312  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.313  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.wkj.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-23 15:30:03.314  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,com.wkj.pojo.Github)
+2020-05-23 15:30:03.315  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.wkj.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-23 15:30:03.317  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-23 15:30:03.318  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.wkj.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-23 15:30:03.318  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.319  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-23 15:30:03.319  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.zeroError()
+2020-05-23 15:30:03.319  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.wkj.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-23 15:30:03.321  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-23 15:30:03.321  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.messageBoard()
+2020-05-23 15:30:03.321  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.wkj.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-23 15:30:03.322  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.wkj.web.MessageController.post(com.wkj.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.334  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.336  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-23 15:30:03.337  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-23 15:30:03.337  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.wkj.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-23 15:30:03.337  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.wkj.web.QQController.post(javax.servlet.http.HttpSession,com.wkj.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-23 15:30:03.338  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.wkj.web.SmsController.sendSms(java.lang.String)
+2020-05-23 15:30:03.340  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.340  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.wkj.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-23 15:30:03.341  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-23 15:30:03.342  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.wkj.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-23 15:30:03.347  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-23 15:30:03.348  INFO 3288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-23 15:30:03.608  INFO 3288 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-23 15:30:03.609  INFO 3288 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-23 15:30:03.670  INFO 3288 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-23 15:30:03.784  INFO 3288 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-23 15:30:07.113  INFO 3288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-23 15:30:07.307  INFO 3288 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-23 15:30:07.358  INFO 3288 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-23 15:30:07.376  INFO 3288 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-23 15:30:07.464  INFO 3288 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-23 15:30:07.636  INFO 3288 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-23 15:30:07.657  INFO 3288 --- [restartedMain] com.wkj.MyblogApplication                : Started MyblogApplication in 22.073 seconds (JVM running for 26.934)
+2020-05-23 15:31:09.751  INFO 3288 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1590059391,1590059730,1590132636; monitor_count=260] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-23 15:31:10.163  INFO 3288 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-23 15:31:10.163  INFO 3288 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-23 15:31:10.229  INFO 3288 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+2020-05-23 15:31:10.296  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:31:10.493  WARN 3288 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-23 15:31:10.505  WARN 3288 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-23 15:31:10.516  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:31:10.517  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:31:13.322  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:31:13.332  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:31:13.332  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:31:20.581  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:31:20.859  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:31:20.859  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 15:31:22.531  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:31:22.538  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:31:22.539  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:31:23.058  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:31:23.140  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:31:23.140  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 15:37:55.272  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:37:55.493  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:37:55.495  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 15:37:57.339  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:37:57.347  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:37:57.347  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:37:58.023  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:37:58.034  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:37:58.034  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 15:38:05.144  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:38:05.166  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:38:05.166  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:38:06.497  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:38:06.515  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:38:06.515  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:40:51.729  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:40:51.748  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:40:51.748  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:40:53.166  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:40:53.174  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:40:53.175  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:41:22.006  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:41:22.037  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:41:22.038  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:41:23.371  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:41:23.381  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:41:23.381  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:41:24.512  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:41:24.528  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:41:24.529  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:41:25.654  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:41:25.669  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:41:25.670  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:42:41.000  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:42:41.031  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:42:41.031  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:42:42.530  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:42:42.536  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:42:42.536  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:42:48.703  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:42:48.728  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:42:48.728  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:42:50.251  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:42:50.258  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:42:50.258  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:43:59.054  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:43:59.076  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:43:59.076  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:44:00.329  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:44:00.335  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:44:00.336  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:44:05.794  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:44:05.809  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:44:05.810  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:44:07.192  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:44:07.200  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:44:07.200  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:45:11.904  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:45:11.920  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:45:11.921  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:45:13.903  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:45:13.913  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:45:13.913  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:45:20.602  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:45:20.617  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:45:20.617  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:45:22.405  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:45:22.411  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:45:22.412  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:50:20.972  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:50:20.989  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:50:20.989  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:50:22.620  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:50:22.630  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:50:22.631  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:50:59.291  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:50:59.305  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:50:59.305  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:51:00.850  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:51:00.856  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:51:00.857  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:53:16.618  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:16.643  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:16.643  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:53:18.339  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:18.346  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:18.347  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:53:43.050  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:43.087  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:43.087  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 15:53:44.347  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:44.355  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:44.356  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:53:49.892  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:49.900  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:49.901  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : about
+2020-05-23 15:53:51.223  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:53:51.230  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:53:51.230  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:55:35.608  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:35.626  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:35.626  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:55:36.926  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:36.935  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:36.936  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:55:46.148  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:46.342  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:46.342  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 15:55:47.501  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:47.506  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:47.507  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:55:48.172  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:48.186  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:48.186  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 15:55:57.213  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:57.233  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:57.233  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:55:58.566  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:58.572  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:58.572  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:55:59.608  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:55:59.631  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:55:59.631  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:56:00.620  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:56:00.632  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:56:00.632  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:57:15.025  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:57:15.031  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:57:15.032  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:57:30.621  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:57:30.626  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:57:30.627  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 15:57:45.753  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:57:45.772  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:57:45.774  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 15:57:47.025  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 15:57:47.033  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 15:57:47.033  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:01:47.363  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:01:47.380  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:01:47.380  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:01:48.940  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:01:48.946  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:01:48.947  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:01:58.320  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:01:58.445  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:01:58.445  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 16:01:59.797  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:01:59.802  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:01:59.803  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:02:00.629  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:02:00.642  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:02:00.643  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 16:04:01.690  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:01.829  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:01.829  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 16:04:03.580  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:03.588  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:03.588  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:04:04.030  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:04.053  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:04.053  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 16:04:43.963  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:44.118  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:44.118  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 16:04:46.003  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:46.008  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:46.008  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:04:46.519  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:04:46.528  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:04:46.528  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 16:05:01.528  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:05:01.551  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:05:01.552  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:05:02.851  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:05:02.862  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:05:02.862  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:05:05.703  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:05:05.720  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:05:05.720  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:05:07.146  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:05:07.152  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:05:07.153  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:06:06.894  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:06:06.904  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:06:06.904  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:06:08.686  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:06:08.691  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:06:08.692  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:06:27.402  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:06:27.437  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:06:27.437  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:06:29.035  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:06:29.041  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:06:29.041  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:07:35.713  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:35.726  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:35.726  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:07:37.146  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:37.151  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:37.152  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:07:50.643  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:50.654  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:50.654  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:07:52.164  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:52.170  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:52.171  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:07:54.742  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:54.757  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:54.757  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:07:56.903  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:07:56.908  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:07:56.908  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:08:10.725  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:08:10.737  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:08:10.737  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:08:12.374  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:08:12.381  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:08:12.382  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:08:21.180  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:08:21.195  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:08:21.195  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : archives
+2020-05-23 16:08:22.611  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:08:22.616  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:08:22.616  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:08:59.317  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:08:59.326  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:08:59.326  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : archives
+2020-05-23 16:09:00.914  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:00.919  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:00.920  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:09:05.942  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:05.951  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:05.951  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : archives
+2020-05-23 16:09:07.387  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:07.392  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:07.393  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:09:35.045  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:35.046  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:35.046  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : about
+2020-05-23 16:09:36.540  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:36.547  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:36.548  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:09:45.765  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:45.767  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:45.767  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : about
+2020-05-23 16:09:47.253  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:09:47.258  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:09:47.259  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:10:06.060  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:10:06.090  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:10:06.090  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : message_board
+2020-05-23 16:10:07.385  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:10:07.390  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:10:07.390  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:10:39.031  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:10:39.041  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:10:39.041  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : message_board
+2020-05-23 16:10:40.883  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:10:40.888  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:10:40.889  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:07.206  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:07.206  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:07.206  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : about
+2020-05-23 16:11:08.439  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:08.445  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:08.446  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:11.025  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:11.041  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:11.042  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : archives
+2020-05-23 16:11:12.418  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:12.426  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:12.427  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:15.755  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:15.767  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:15.767  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:11:16.945  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:16.951  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:16.952  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:21.412  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:21.425  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:21.425  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:11:22.642  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:22.648  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:22.649  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:48.486  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:48.501  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:48.501  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:11:49.973  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:49.983  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:49.984  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:11:50.659  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:50.671  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:50.671  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:11:52.473  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:11:52.479  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:11:52.480  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:12:09.645  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:09.655  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:09.655  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:12:10.914  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:10.920  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:10.920  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:12:21.110  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:21.123  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:21.123  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:12:22.536  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:22.541  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:22.541  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:12:40.546  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:40.557  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:40.557  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:12:42.375  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:42.380  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:42.380  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:12:47.460  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:47.486  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:47.486  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 16:12:48.698  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:12:48.702  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:12:48.703  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:13:07.982  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:13:07.986  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:13:07.986  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:14:33.224  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:14:33.230  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:14:33.231  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:14:40.151  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:14:40.159  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:14:40.159  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:14:58.828  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:14:58.838  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:14:58.838  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:15:01.134  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:15:01.140  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:15:01.140  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:17:13.702  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:17:13.708  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:17:13.709  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:18:44.539  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:18:44.544  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:18:44.544  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:18:52.949  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:18:52.958  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:18:52.958  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:20:09.055  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:20:09.064  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:20:09.064  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:22:58.905  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:22:58.919  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:22:58.919  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:23:00.273  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:23:00.280  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:23:00.280  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:23:00.640  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:23:00.653  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:23:00.653  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:23:02.141  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:23:02.149  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:23:02.149  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:23:59.797  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:23:59.809  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:23:59.810  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:24:01.301  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:01.305  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:01.305  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:24:05.752  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:05.761  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:05.762  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:24:07.285  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:07.289  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:07.289  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:24:11.450  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:11.459  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:11.459  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 16:24:12.997  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:13.002  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:13.003  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:24:24.039  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:24.059  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:24.060  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 16:24:25.240  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:25.246  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:25.246  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:24:30.644  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:30.796  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:30.796  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : blog
+2020-05-23 16:24:32.246  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:32.251  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:32.251  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:24:32.971  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:24:32.980  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:24:32.981  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-23 16:25:57.595  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:25:57.602  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:25:57.602  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:26:03.394  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:26:03.399  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:26:03.399  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:26:27.668  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:26:27.674  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:26:27.674  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:27:01.217  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:27:01.220  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:27:01.221  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:32:28.204  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:32:28.209  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:32:28.209  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:04.942  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:04.947  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:04.947  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:08.082  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:08.087  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:08.087  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:14.169  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:14.173  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:14.174  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:27.555  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:27.560  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:27.560  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:31.575  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:31.601  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:31.601  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:33:43.717  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:33:43.730  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:33:43.730  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:28.519  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:28.526  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:28.526  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:44.763  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:44.766  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:44.766  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:47.909  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:47.913  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:47.913  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:50.944  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:50.951  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:50.951  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:54.077  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:54.086  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:54.086  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:56:57.402  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:56:57.406  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:56:57.407  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 16:57:00.186  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 16:57:00.191  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 16:57:00.191  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:00:38.191  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:00:38.197  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:00:38.197  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:05:07.877  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:05:07.882  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:05:07.883  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:06:41.727  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:06:41.732  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:06:41.732  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:08:47.884  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:08:47.889  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:08:47.889  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:08:53.130  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:08:53.134  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:08:53.134  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:10:46.162  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:10:46.167  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:10:46.167  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:11:06.200  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:11:06.205  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:11:06.205  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:11:10.531  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:11:10.535  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:11:10.536  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:11:42.125  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:11:42.130  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:11:42.130  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:11:47.343  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:11:47.351  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:11:47.352  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:12:29.148  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:12:29.152  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:12:29.152  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:12:32.526  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:12:32.533  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:12:32.533  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:12:47.687  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:12:47.692  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:12:47.692  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:12:51.187  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:12:51.191  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:12:51.191  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:04.086  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:04.090  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:04.090  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:07.821  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:07.825  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:07.826  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:10.506  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:10.511  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:10.511  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:13.310  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:13.318  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:13.318  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:16.238  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:16.243  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:16.243  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:13:45.067  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:13:45.071  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:13:45.072  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:14:10.050  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:14:10.055  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:14:10.055  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:14:13.236  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:14:13.241  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:14:13.242  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:01.656  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:01.660  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:01.660  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:05.328  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:05.332  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:05.333  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:08.815  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:08.819  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:08.819  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:25.155  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:25.159  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:25.160  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:28.090  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:28.096  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:28.096  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:15:32.160  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:15:32.165  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:15:32.165  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:22.229  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:22.235  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:22.235  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:25.018  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:25.040  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:25.087  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:28.460  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:28.465  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:28.465  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:32.646  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:32.653  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:32.654  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:38.510  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:38.514  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:38.514  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:43.057  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:43.062  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:43.063  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:17:47.758  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:17:47.763  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:17:47.763  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:18:10.775  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:18:10.779  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:18:10.779  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:18:13.807  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:18:13.811  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:18:13.812  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:18:17.220  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:18:17.224  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:18:17.225  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:18:19.603  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:18:19.608  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:18:19.608  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:19:29.163  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:19:29.167  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:19:29.167  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:19:31.947  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:19:31.954  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:19:31.954  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:19:36.515  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:19:36.519  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:19:36.520  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:21:24.586  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:21:24.590  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:21:24.590  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:21:27.229  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:21:27.238  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:21:27.238  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:21:32.160  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:21:32.168  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:21:32.168  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:23:18.865  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:23:18.869  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:23:18.869  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:23:33.237  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:23:33.244  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:23:33.244  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:19.807  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:19.813  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:19.814  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:23.915  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:23.929  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:23.929  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:25.747  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:25.752  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:25.752  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:48.156  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:48.161  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:48.161  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:50.242  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:50.247  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:50.247  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:24:59.362  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:24:59.366  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:24:59.366  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:27:58.682  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:27:58.686  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:27:58.686  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:28:01.371  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:28:01.379  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:28:01.380  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:28:03.470  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:28:03.474  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:28:03.474  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:28:18.210  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:28:18.214  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:28:18.214  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:28:19.968  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:28:19.974  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:28:19.974  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:28:22.123  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:28:22.135  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:28:22.135  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:29:57.235  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:29:57.239  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:29:57.239  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:29:59.496  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:29:59.500  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:29:59.500  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:32.154  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:32.159  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:32.159  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:33.941  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:33.951  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:33.951  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:35.665  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:35.669  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:35.669  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:37.173  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:37.178  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:37.178  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:39.461  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:39.466  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:39.466  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:30:43.328  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:30:43.336  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:30:43.336  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:31:13.080  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:31:13.084  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:31:13.084  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:31:17.930  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:31:17.934  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:31:17.934  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:31:21.633  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:31:21.654  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:31:21.655  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:39:58.405  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:39:58.409  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:39:58.409  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:00.278  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:00.282  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:00.283  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:03.004  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:03.008  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:03.008  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:25.865  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:25.870  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:25.871  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:27.632  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:27.637  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:27.637  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:29.286  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:29.290  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:29.291  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:30.440  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:30.444  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:30.444  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:48.798  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:48.801  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:48.802  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:40:53.299  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:40:53.303  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:40:53.303  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:49:30.037  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:49:30.041  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:49:30.042  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:49:32.109  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:49:32.113  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:49:32.113  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:55:33.072  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:55:33.076  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:55:33.076  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:55:56.013  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:55:56.017  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:55:56.018  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:55:58.056  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:55:58.060  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:55:58.060  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:55:59.802  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:55:59.810  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:55:59.810  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:56:01.444  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:56:01.448  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:56:01.448  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:56:03.545  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:56:03.551  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:56:03.551  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:58:03.770  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:58:03.775  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:58:03.775  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:58:05.751  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:58:05.756  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:58:05.756  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:58:07.434  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:58:07.437  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:58:07.438  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:58:08.620  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:58:08.625  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:58:08.625  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:58:09.651  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:58:09.655  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:58:09.655  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:59:41.893  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:59:41.898  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:59:41.898  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 17:59:43.852  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 17:59:43.857  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 17:59:43.857  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:00:15.632  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:00:15.637  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:00:15.637  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:00:17.974  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:00:17.979  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:00:17.980  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:00:19.635  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:00:19.639  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:00:19.639  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:00:21.718  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:00:21.723  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:00:21.723  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:01:43.021  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:01:43.026  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:01:43.026  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:01:49.448  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:01:49.469  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:01:49.474  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:02:04.382  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:02:04.385  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:02:04.385  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:02:09.585  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:02:09.588  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:02:09.588  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:02:19.827  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:02:19.831  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:02:19.831  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:03:21.010  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:03:21.015  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:03:21.016  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:03:59.246  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:03:59.250  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:03:59.250  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:04:04.092  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:04:04.097  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:04:04.097  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:04:11.551  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:04:11.555  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:04:11.555  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:04:18.955  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:04:18.958  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:04:18.958  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:04:52.922  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:04:52.926  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:04:52.926  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:04:55.960  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:04:55.965  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:04:55.966  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:05:02.598  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:05:02.602  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:05:02.602  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:06:03.340  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:06:03.345  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:06:03.346  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:06:07.900  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:06:07.904  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:06:07.904  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:06:16.932  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:06:16.939  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:06:16.939  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:06:21.865  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:06:21.870  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:06:21.870  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:07:24.394  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:07:24.398  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:07:24.398  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:07:27.204  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:07:27.208  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:07:27.208  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:07:35.153  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:07:35.160  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:07:35.160  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:07:40.804  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:07:40.808  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:07:40.808  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:07:48.324  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:07:48.329  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:07:48.330  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:08:31.315  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:08:31.325  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:08:31.325  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:08:36.655  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:08:36.660  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:08:36.660  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:10:07.298  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:10:07.303  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:10:07.303  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:10:10.517  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:10:10.521  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:10:10.522  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:10:17.846  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:10:17.851  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:10:17.851  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:10:27.437  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:10:27.440  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:10:27.440  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:11:29.042  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:11:29.046  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:11:29.046  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:11:35.956  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:11:35.960  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:11:35.960  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:11:50.300  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:11:50.306  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:11:50.307  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:15:43.342  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:15:43.345  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:15:43.346  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:16:56.511  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:16:56.514  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:16:56.514  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:17:03.262  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:17:03.332  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:17:03.344  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:17:19.716  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:17:19.720  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:17:19.721  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:17:22.044  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:17:22.047  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:17:22.048  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:17:28.050  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:17:28.054  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:17:28.054  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:18:13.783  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:18:13.787  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:18:13.788  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:18:17.398  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:18:17.404  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:18:17.404  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:18:20.307  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:18:20.311  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:18:20.311  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:03.143  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:03.147  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:03.147  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:07.533  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:07.537  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:07.537  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:34.098  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:34.102  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:34.102  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:36.797  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:36.802  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:36.802  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:56.503  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:56.507  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:56.508  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:19:59.932  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:19:59.936  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:19:59.936  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:20:10.097  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:20:10.101  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:20:10.101  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:20:14.962  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:20:14.966  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:20:14.966  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:20:16.806  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:20:16.811  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:20:16.811  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:20:18.902  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:20:18.906  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:20:18.907  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:00.150  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:00.153  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:00.153  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:05.951  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:05.955  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:05.955  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:10.599  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:10.610  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:10.611  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:16.417  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:16.424  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:16.424  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:32.208  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:32.212  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:32.213  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:35.031  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:35.035  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:35.035  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:22:57.744  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:57.755  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:57.755  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 18:22:59.267  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:22:59.271  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:22:59.271  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:23:12.859  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:23:12.868  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:23:12.868  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 18:23:14.148  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:23:14.152  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:23:14.152  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:23:35.836  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:23:35.849  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:23:35.849  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:23:37.183  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:23:37.189  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:23:37.189  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:29:35.070  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:35.080  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:35.080  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:29:36.383  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:36.386  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:36.387  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:29:41.929  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:41.945  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:41.945  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:29:43.331  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:43.336  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:43.336  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:29:51.071  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:51.079  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:51.079  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:29:52.473  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:29:52.480  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:29:52.480  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:36:54.561  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:36:54.577  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:36:54.577  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:36:55.945  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:36:55.949  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:36:55.950  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:38:32.397  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:38:32.407  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:38:32.407  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:38:33.868  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:38:33.873  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:38:33.873  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:39:06.577  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:39:06.595  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:39:06.595  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:39:08.263  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:39:08.267  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:39:08.267  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:39:13.077  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:39:13.085  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:39:13.086  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:39:14.495  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:39:14.503  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:39:14.504  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:40:43.563  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:40:43.587  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:40:43.588  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 18:40:44.974  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:40:44.978  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:40:44.979  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:40:48.429  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:40:48.455  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:40:48.455  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:40:49.927  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:40:49.932  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:40:49.932  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:42:44.707  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:44.732  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:44.732  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : index
+2020-05-23 18:42:45.890  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:45.896  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:45.896  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:42:46.942  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:46.949  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:46.949  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 18:42:48.184  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:48.188  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:48.188  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 18:42:54.100  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:54.114  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:54.114  INFO 3288 --- [http-nio-80-exec-9] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 18:42:55.515  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 18:42:55.521  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 18:42:55.521  INFO 3288 --- [http-nio-80-exec-4] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:11:37.045  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:37.066  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:37.066  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 19:11:38.606  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:38.612  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:38.613  INFO 3288 --- [http-nio-80-exec-2] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:11:44.043  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:44.051  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:44.051  INFO 3288 --- [http-nio-80-exec-6] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 19:11:45.753  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:45.762  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:45.763  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:11:54.351  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:54.370  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:54.371  INFO 3288 --- [http-nio-80-exec-5] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 19:11:56.210  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:56.395  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:56.395  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:11:58.630  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:11:58.640  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:11:58.640  INFO 3288 --- [http-nio-80-exec-3] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 19:12:00.080  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:12:00.085  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:12:00.085  INFO 3288 --- [http-nio-80-exec-7] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:13:14.974  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:13:14.993  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:13:14.993  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : tags
+2020-05-23 19:13:16.812  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:13:16.816  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:13:16.817  INFO 3288 --- [http-nio-80-exec-8] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-23 19:13:26.603  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:13:26.612  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:13:26.612  INFO 3288 --- [http-nio-80-exec-1] com.wkj.aspect.LogAspect                 : Result : types
+2020-05-23 19:13:27.927  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doBefore------
+2020-05-23 19:13:27.933  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : ------doAfter------
+2020-05-23 19:13:27.934  INFO 3288 --- [http-nio-80-exec-10] com.wkj.aspect.LogAspect                 : Result : _fragments :: newblogList

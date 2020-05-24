@@ -36,7 +36,7 @@
       <i class="sidebar icon"></i>
     </a>
   </nav>
-  <div class="ui attached pointing menu">
+  <div class="ui attached pointing menu m-opacity-mini">
     <div class="ui container">
       <div class="right menu">
         <a href="#" th:href="@{/admin/blogs/input}" class="teal active item">发布</a>
@@ -115,27 +115,27 @@
 
         <div class="inline fields">
           <div class="field">
-            <div class="ui checkbox">
+            <div class="ui checkbox ">
               <input type="checkbox" id="recommend" name="recommend" checked th:checked="*{recommend}" class="hidden">
-              <label for="recommend">推荐</label>
+              <label for="recommend"> <a style="color: greenyellow"> 推荐</a></label>
             </div>
           </div>
           <div class="field">
             <div class="ui checkbox">
               <input type="checkbox" id="shareStatement" name="shareStatement" th:checked="*{shareStatement}" class="hidden">
-              <label for="shareStatement">转载声明</label>
+              <label for="shareStatement"><a style="color: greenyellow"> 转载声明</a></label>
             </div>
           </div>
           <div class="field">
             <div class="ui checkbox">
               <input type="checkbox" id="appreciation" name="appreciation" th:checked="*{appreciation}" class="hidden">
-              <label for="appreciation">赞赏</label>
+              <label for="appreciation"><a style="color: greenyellow">赞赏</a></label>
             </div>
           </div>
           <div class="field">
             <div class="ui checkbox">
               <input type="checkbox" id="commentabled" name="commentabled" th:checked="*{commentabled}" class="hidden">
-              <label for="commentabled">评论</label>
+              <label for="commentabled"><a style="color: greenyellow">评论</a></label>
             </div>
           </div>
         </div>
