@@ -56,7 +56,7 @@ public class Blog {
     public void init(){
         this.tagIds=tagsToIds(this.getTags());
     }
-    //将数组转换为字符串分隔
+    //将标签数组转换为字符串分隔
     private String tagsToIds(List<Tag> tags) {
         if (!tags.isEmpty()) {
             StringBuffer ids = new StringBuffer();

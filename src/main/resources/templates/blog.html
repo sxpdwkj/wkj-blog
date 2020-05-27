@@ -64,7 +64,7 @@
       <div class="ui   padded segment">
         <!--内容-->
         <div class="ui right aligned basic segment">
-          <div class="ui orange basic label" th:text="${blog.flag}">原创</div>
+          <div id="blogFlag" class="ui orange basic label" th:text="${blog.flag}">原创</div>
         </div>
 
         <h2  id="blogTitleValue" class="ui center aligned header" th:text="${blog.title}">关于刻意练习的清单</h2>
@@ -467,9 +467,9 @@ h5,h6{font-size:1em;}
         <div class="ui middle aligned grid">
           <div class="eleven wide column">
             <ui class="list">
-              <li>作者：<span th:text="${blog.user.nickname}">Xiong_sh</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
+              <li>作者：<span th:text="${blog.user.nickname}">wkj</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
               <li>发表时间：<span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd HH:mm')}">2017-10-02 09:08</span></li>
-              <li>版权声明：自由转载-非商用-非衍生-保持署名（null）</li>
+              <li>版权声明：自由转载-非商用-非衍生-保持署名 </li>
               <li>undefined</li>
             </ui>
           </div>
